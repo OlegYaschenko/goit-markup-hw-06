@@ -505,7 +505,16 @@ ul {
 }
 
 .subscribe-button {
+  position: relative;
+
+  padding-left: 29px;
   margin-left: 12px;
+
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
@@ -518,6 +527,15 @@ ul {
 
 .subscribe-second-flex {
   display: flex;
+  align-items: flex-end;
+}
+
+.subscribe-icon {
+  position: absolute;
+  right: 28px;
+  bottom: 13px;
+
+  fill: var(--primary-white-color);
 }
 
 /* Портфолио */
